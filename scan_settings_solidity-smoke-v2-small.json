@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json.schemastore.org/aiproj-1.4.json",
+    "Version": "1.4",
+    "ProjectName": "solidity-smoke-v2 small",
+    "ProgrammingLanguages": [
+        "Solidity"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "UseSastRules": false,
+    "UseCustomPmRules": false,
+    "UseSecurityPolicies": false,
+    "SkipGitIgnoreFiles": false,
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "PygrepSettings": {
+        "RulesDirPath": "rules"
+    }
+}
